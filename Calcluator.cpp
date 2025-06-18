@@ -13,6 +13,7 @@ int main(){
     cout<<"3. for multiplication "<<endl;
     cout<<"4. for division "<<endl;
 
+    cin>>opt;
     switch(opt){
         case 1: cout<<"The addition of two number is = "<<num1+num2<<endl;
         break;
