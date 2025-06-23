@@ -20,16 +20,16 @@ int main() {
 
     // Print today's date
     string today = getCurrentDate();
-    cout << "✅ Commit logged for: " << today << endl;
+    cout << " Commit logged for: " << today << endl;
 
     // Motivation quote of the day (change this daily!)
     string quote = "Push yourself, because no one else is going to do it for you!";
-    cout << "💡 Quote of the day: " << quote << endl;
+    cout << " Quote of the day: " << quote << endl;
 
     // Tip (optional: change daily)
     string tip = "Even a small commit keeps your streak alive!";
-    cout << "📌 Tip: " << tip << endl;
+    cout << " Tip: " << tip << endl;
 
-    cout << "Keep coding and keep the streak alive 💪" << endl;
+    cout << "Keep coding and keep the streak alive " << endl;
     return 0;
 }
